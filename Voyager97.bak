@@ -439,7 +439,7 @@ Text GLabel 5125 5475 2    60   Input ~ 0
 ROW2
 Text GLabel 5125 5375 2    60   Input ~ 0
 ROW1
-Text GLabel 5125 5275 2    60   Input ~ 0
+Text GLabel 5125 6675 2    60   Input ~ 0
 ROW0
 Wire Wire Line
 	2925 850  3100 850 

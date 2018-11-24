@@ -141,28 +141,6 @@ F 3 "" H 3300 3175 50  0001 C CNN
 	1    3300 3175
 	1    0    0    -1  
 $EndComp
-$Comp
-L Switch:SW_Push SW1
-U 1 1 5B32EDAB
-P 2900 3275
-F 0 "SW1" H 2950 3375 50  0000 L CNN
-F 1 "SW_Push" H 2900 3215 50  0000 C CNN
-F 2 "Molex-0548190589:PushButton_6x6mm_TH" H 2900 3475 50  0001 C CNN
-F 3 "" H 2900 3475 50  0001 C CNN
-	1    2900 3275
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR06
-U 1 1 5B32EDDE
-P 2700 3350
-F 0 "#PWR06" H 2700 3100 50  0001 C CNN
-F 1 "GND" H 2700 3200 50  0000 C CNN
-F 2 "" H 2700 3350 50  0001 C CNN
-F 3 "" H 2700 3350 50  0001 C CNN
-	1    2700 3350
-	1    0    0    -1  
-$EndComp
 Text GLabel 3925 4375 0    60   Input ~ 0
 D-
 Text GLabel 3925 4275 0    60   Input ~ 0
@@ -315,11 +293,6 @@ Wire Wire Line
 	3175 1400 3125 1400
 Wire Wire Line
 	5975 4875 6225 4875
-Wire Wire Line
-	3100 3275 3300 3275
-Connection ~ 3300 3275
-Wire Wire Line
-	2700 3350 2700 3275
 Wire Wire Line
 	3525 4575 3925 4575
 Wire Wire Line
